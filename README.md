@@ -1,6 +1,6 @@
-### Project Commands Collection
+## Project Commands Collection
 
-#### Docker Commands
+### Docker Commands
 
 ###### Pull PostgreSQL Image
 	docker pull postgres
@@ -11,7 +11,7 @@
 ###### Bash into PostgreSQL Container
 	`docker exec -it some-postgres bash`
 
-#### PostgreSQL Commands
+### PostgreSQL Commands
 
 ###### Log into PostgreSQL
 	`psql -U postgres`
