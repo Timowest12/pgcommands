@@ -6,7 +6,7 @@
 	docker pull postgres
 
 ###### Run PostgreSQL Container
-	docker run --name some-postgres -e POSTGRES_PASSWORD=secretpassword -d postgres
+	docker run --name instance-name -e POSTGRES_PASSWORD=secretpassword -d postgres
 
 ###### Bash into PostgreSQL Container
 	docker exec -it some-postgres bash
@@ -20,10 +20,10 @@
 	\du
 
 ###### Create User with Password
-	CREATE USER name WITH PASSWORD ‘secretpassword’;
+	CREATE USER username WITH PASSWORD 'secretpassword';
 
 ###### Create User that Expires at Certain Moment
-	CREATE USER name WITH PASSWORD ‘secretpassword’ VALID UNTIL '2005-01-01';
+	CREATE USER name WITH PASSWORD 'secretpassword' VALID UNTIL '2005-01-01';
 
 ###### Create a Schema
 	CREATE SCHEMA IF NOT EXISTS schema_name;
