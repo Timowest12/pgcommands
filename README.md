@@ -13,7 +13,7 @@
 
 ### PostgreSQL Commands
 
-###### Log into PostgreSQL
+###### Log into PostgreSQL(need to be in container)
 	`psql -U postgres`
 
 ###### List All PostgreSQL Users
