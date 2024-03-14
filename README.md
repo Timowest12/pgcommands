@@ -2,7 +2,7 @@
 
 ## Docker Commands
 
-- **Pull PostgreSQL Image**
+- **Pull PostgreSQL Image**\
   docker pull postgres
 
 - **Run PostgreSQL Container**
