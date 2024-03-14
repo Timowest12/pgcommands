@@ -1,29 +1,29 @@
-# Project Commands Collection
+### Project Commands Collection
 
-## Docker Commands
+#### Docker Commands
 
-### Pull PostgreSQL Image
+###### Pull PostgreSQL Image
 	docker pull postgres
 
-### Run PostgreSQL Container
+###### Run PostgreSQL Container
 	`docker run --name some-postgres -e POSTGRES_PASSWORD=secretpassword -d postgres`
 
-### Bash into PostgreSQL Container
+###### Bash into PostgreSQL Container
 	`docker exec -it some-postgres bash`
 
-## PostgreSQL Commands
+#### PostgreSQL Commands
 
-### Log into PostgreSQL
+###### Log into PostgreSQL
 	`psql -U postgres`
 
-### List All PostgreSQL Users
+###### List All PostgreSQL Users
 	`\du`
 
-### Create User with Password
+###### Create User with Password
 	`CREATE USER name WITH PASSWORD ‘secretpassword’;`
 
-### Create User that Expires at Certain Moment
+###### Create User that Expires at Certain Moment
 	`CREATE USER name WITH PASSWORD ‘secretpassword’ VALID UNTIL '2005-01-01';`
 
-### Create a Schema
+###### Create a Schema
 	`CREATE SCHEMA IF NOT EXISTS schema_name;`
