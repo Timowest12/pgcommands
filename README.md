@@ -25,5 +25,15 @@
 ###### Create User that Expires at Certain Moment
 	CREATE USER name WITH PASSWORD 'secretpassword' VALID UNTIL '2005-01-01';
 
+###### Drop a user
+	DROP USER IF EXISTS username;
+
 ###### Create a Schema
-	CREATE SCHEMA IF NOT EXISTS schema_name;
+	CREATE SCHEMA IF NOT EXISTS schemaname;
+
+###### Drop a Schema
+	DROP SCHEMA IF EXISTS schemaname;
+
+###### List all schemas
+	select nspname from pg_catalog.pg_namespace;
+ 
