@@ -3,7 +3,7 @@
 ## Docker Commands
 
 ### Pull PostgreSQL Image
-	`docker pull postgres`
+	docker pull postgres
 
 ### Run PostgreSQL Container
 	`docker run --name some-postgres -e POSTGRES_PASSWORD=secretpassword -d postgres`
