@@ -9,7 +9,7 @@
 	docker run --name instance-name -e POSTGRES_PASSWORD=secretpassword -d postgres
 
 ###### Bash into PostgreSQL Container
-	docker exec -it some-postgres bash
+	docker exec -it instance-name bash
 
 ### PostgreSQL Commands
 
