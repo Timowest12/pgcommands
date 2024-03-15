@@ -1,5 +1,10 @@
 ## Project Commands Collection
 
+### Instant command
+
+###### setup, run initiate master and map port
+	docker run --name instance-name -e POSTGRES_PASSWORD=secretpassword -p 5432:5432 -d postgres
+
 ### Docker Commands
 
 ###### Pull PostgreSQL Image
