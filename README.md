@@ -42,3 +42,12 @@
 ###### List all schemas
 	select nspname from pg_catalog.pg_namespace;
  
+###### Create table
+	CREATE TABLE test (
+	id text,
+	name text
+)
+
+###### INSERT
+	INSERT INTO test (id,name) VALUES ('2','name')
+ 
