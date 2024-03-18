@@ -44,9 +44,9 @@
  
 ###### Create table
 	CREATE TABLE test (
-	id text,
-	name text
-)
+		id text,
+		name text
+ 	)
 
 ###### INSERT
 	INSERT INTO test (id,name) VALUES ('2','name')
